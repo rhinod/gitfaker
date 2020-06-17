@@ -1,0 +1,22 @@
+@import 'bootstrap/dist/css/bootstrap';
+
+#footer {
+    background-color: #f3e5f5;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  #footer::before {
+    content: '';
+    position: absolute;
+    background: #f3e5f5;
+    z-index: 10;
+    height: 58px;
+    width: 33px;
+    left: -33px;
+    top: 0px;
+  }
+  
+
